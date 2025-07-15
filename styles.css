@@ -1,0 +1,42 @@
+body {
+  background-color: #ffeef8; /* rosado pastel */
+  font-family: Arial, sans-serif;
+  color: #2c3e50;
+  padding: 20px;
+}
+
+h1 {
+  color: #5dade2; /* azul suave */
+  text-align: center;
+}
+
+.carrera {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(93, 173, 226, 0.3);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #fcd6e3;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f8b6d2;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
